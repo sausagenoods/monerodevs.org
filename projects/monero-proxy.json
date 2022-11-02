@@ -10,7 +10,7 @@
     "avatar": "https://opengraph.githubassets.com/938f0fccf68b52fd1969b6c3dee6cb199eaebff6bcbe39801cacfd45a5bd53ea/unyieldinggrace/monerod-proxy",
     "description": "HTTP proxy server intended to sit in front of a real Monerod node. Your wallet (or other app that needs a node) can talk to the proxy just as if it was talking to the node directly, but with some nice extra features.",
     "tags": [
-        "Monero",
+        
         "ProxyD"
     ]
 }

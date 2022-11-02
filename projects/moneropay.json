@@ -7,10 +7,9 @@
     "youtube": "",
     "website": "https://gitlab.com/moneropay/moneropay",
     "donate": "https://donate.kernal.eu/",
-    "avatar": "https://avatars.githubusercontent.com/u/83431778?s=280&v=4",
+    "avatar": "./images/projects/moneropay.png",
     "description": "Monero payment gateway (API) for incoming and outgoing transactions",
     "tags": [
-        "Monero",
-        "mPay"
+        "MoneroPay"
     ]
 }

@@ -1,16 +1,16 @@
 {
     "name": "llcoins",
-    "github": "https://github.com/luigi1111/xmr.llcoins.net",
+    "github": "luigi1111/xmr.llcoins.net",
     "reddit": "",
     "matrix": "",
     "twitter": "",
     "youtube": "",
     "website": "http://llcoins.net/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-        "Monero",
+        
         "llcoins"
     ]
 }

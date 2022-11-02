@@ -7,10 +7,10 @@
     "youtube": "",
     "website": "https://www.getmonero.org/",
     "donate": "https://bounties.monero.social/posts/37/bch-xmr-atomic-swaps",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "A bounty has been opened to make BCH<->XMR atomic swaps a reality! The Donate button will open the bounty page (BCH address in comments)",
     "tags": [
-        "Monero",
+        
         "BCH<->XMR"
     ]
 }

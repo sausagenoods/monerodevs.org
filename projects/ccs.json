@@ -7,10 +7,10 @@
     "youtube": "",
     "website": "https://www.getmonero.org/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "Active / in progress proposals",
     "tags": [
-        "Monero",
+        
         "CCS"
     ]
 }

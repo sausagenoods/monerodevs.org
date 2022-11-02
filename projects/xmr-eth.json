@@ -5,12 +5,12 @@
     "matrix": "",
     "twitter": "",
     "youtube": "",
-    "website": "https://github.com/noot/atomic-swap",
+    "website": "noot/atomic-swap",
     "donate": "48WX8KhD8ECgnRBonmDdUecGt8LtQjjesDRzxAjj7tie4CdhtqeBjSLWHhNKMc52kWayq365czkN3MV62abQobTcT1Xe6xC",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "A bounty to make the first mainnet ETH <-> XMR tx [here](https://bounties.monero.social/posts/35/eth-xmr-atomic-swap)",
     "tags": [
-        "Monero",
+        
         "ETH<->XMR"
     ]
 }

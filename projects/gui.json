@@ -7,10 +7,10 @@
     "youtube": "",
     "website": "https://www.getmonero.org/downloads/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "Multi OS Monero desktop wallet",
     "tags": [
-        "Monero",
+        
         "GUI"
     ]
 }

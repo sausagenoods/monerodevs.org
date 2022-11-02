@@ -1,0 +1,83 @@
+<html>
+<head>
+  <link rel="stylesheet" href="./assets/bulma/bulma.min.css">
+  <link href="./assets/forkawesome/css/fork-awesome.min.css" rel="stylesheet">
+</head>
+
+<style>
+img {max-height: 128px; object-fit: cover;}
+a {color: black;}
+</style>
+
+<body>
+
+<div class="section">
+<div class="container is-fluid">
+<h1 class="title">Projects</h1>
+<div class="columns is-multiline">
+
+{{ range .Projects }}
+  <div class="column is-one-quarter">
+    <div class="card has-text-centered">
+        <div class="card-content">
+
+          <figure class="image is-128x128 is-inline-block mb-5">
+            <img class="is-rounded" src="{{ .Avatar }}" alt="">
+          </figure>
+
+          <h5 class="title is-5 mb-2">{{ .Name }}</h5>
+
+          <div class="icons mb-2">
+            {{ .Icons }}
+          </div>
+
+         <p>{{ .Description }}</p>
+        </div>
+        <footer class="card-footer is-inline-block">
+        <div class="buttons are-small is-inline-block m-3">
+	  {{ range .Tags }}
+          <button class="button is-rounded">{{ . }}</button>
+	  {{ end }}
+        </div>
+        </footer>
+      </div>
+    </div>
+{{ end }}
+
+</div>
+
+<h1 class="title">People</h1>
+
+<div class="columns is-multiline">
+
+{{ range .People }}
+  <div class="column is-one-quarter">
+      <div class="card has-text-centered">
+        <div class="card-content">
+          <figure class="image is-128x128 is-inline-block mb-5">
+            <img class="is-rounded" src="{{ .Avatar }}" alt="">
+          </figure>
+
+          <h5 class="title is-5 mb-2">{{ .Name }}</h5>
+	  <div class="icons mb-2">
+            {{ .Icons }}
+	  </div>
+          <p>{{ .Description }}</p>
+        </div>
+        <footer class="card-footer is-inline-block">
+        <div class="buttons are-small is-inline-block m-3">
+	  {{ range .Tags }}
+          <button class="button is-rounded">{{ . }}</button>
+	  {{ end }}
+        </div>
+      </footer>
+    </div>
+  </div>
+{{ end }}
+
+</div>
+
+</div>
+
+</div>
+</body>

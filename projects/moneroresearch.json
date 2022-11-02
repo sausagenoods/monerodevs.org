@@ -7,10 +7,10 @@
     "youtube": "",
     "website": "https://moneroresearch.info/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "MoneroResearch.info hosts a collection of research papers relevant to improving Monero, powered by the WIKINDX open source software.",
     "tags": [
-        "Monero",
+        
         "xmresearch"
     ]
 }

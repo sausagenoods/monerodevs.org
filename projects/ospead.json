@@ -5,10 +5,10 @@
     "donate": "",
     "type": "project",
     "website": "https://repo.getmonero.org/monero-project/ccs-proposals/-/merge_requests/255",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-        "Monero",
+        
         "OSPEAD"
     ]
 }

@@ -5,10 +5,10 @@
     "donate": "https://www.monero.observer/about/",
     "type": "project",
     "website": "https://www.monero.observer/",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "Everything that moves in the Monero community.",
     "tags": [
-        "Monero",
+        
         "MO"
     ]
 }

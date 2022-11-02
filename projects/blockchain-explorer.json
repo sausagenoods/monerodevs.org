@@ -1,16 +1,16 @@
 {
     "name": "Onion Monero Blockchain Explorer",
-    "github": "https://github.com/moneroexamples/onion-monero-blockchain-explorer#onion-monero-blockchain-explorer",
+    "github": "moneroexamples/onion-monero-blockchain-explorer#onion-monero-blockchain-explorer",
     "reddit": "",
     "matrix": "",
     "twitter": "",
     "youtube": "",
     "website": "https://www.getmonero.org/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-        "Monero",
+        
         "OnExp"
     ]
 }

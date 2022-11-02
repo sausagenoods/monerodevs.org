@@ -1,16 +1,15 @@
 {
     "name": "Siren",
-    "github": "sausagenoods",
+    "gitlab": "sausagenoods",
     "reddit": "",
-    "matrix": "siren:kernal.eu",
+    "matrix": "@siren:kernal.eu",
     "twitter": "",
     "youtube": "",
     "website": "https://kernal.eu/",
     "donate": "",
-    "avatar": "https://avatars.githubusercontent.com/u/84454107?v=4?s=400",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
+    "avatar": "./images/people/siren.jpg",
+    "description": "Free software advocate, hacker, developer at [kernal.eu](https://kernal.eu).",
     "tags": [
-        "Monero",
-        "mPay"
+        "MoneroPay"
     ]
 }

@@ -1,16 +1,16 @@
 {
     "name": "Monero Light Wallet Server",
-    "github": "https://github.com/vtnerd/monero-lws",
+    "github": "vtnerd/monero-lws",
     "reddit": "",
     "matrix": "",
     "twitter": "",
     "youtube": "",
     "website": "https://www.getmonero.org/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "Monero Light Wallet Server (scans monero viewkeys and implements mymonero API)",
     "tags": [
-        "Monero",
+        
         "lws"
     ]
 }

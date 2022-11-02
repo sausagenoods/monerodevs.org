@@ -7,10 +7,10 @@
     "youtube": "",
     "website": "https://www.getmonero.org/",
     "donate": "",
-    "avatar": "icons/default-avatar.jpg",
+    "avatar": "",
     "description": "These people share their thoughts via blogs / social media to spread the word of Monero and Privacy!",
     "tags": [
-        "Monero",
+        
         "blog"
     ]
 }
