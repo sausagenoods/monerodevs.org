@@ -7,6 +7,7 @@
 <style>
 img {max-height: 128px; object-fit: cover;}
 a {color: black;}
+@media (min-width: 1024px) {.card {height: 100%;}}
 </style>
 
 <body>
@@ -14,10 +15,10 @@ a {color: black;}
 <div class="section">
 <div class="container is-fluid">
 <h1 class="title">Projects</h1>
-<div class="columns is-multiline">
+<div class="columns is-multiline is-desktop">
 
 {{ range .Projects }}
-  <div class="column is-one-quarter">
+  <div class="column is-one-quarter-desktop">
     <div class="card has-text-centered">
         <div class="card-content">
 
@@ -48,10 +49,10 @@ a {color: black;}
 
 <h1 class="title">People</h1>
 
-<div class="columns is-multiline">
+<div class="columns is-multiline is-desktop">
 
 {{ range .People }}
-  <div class="column is-one-quarter">
+  <div class="column is-one-quarter-desktop">
       <div class="card has-text-centered">
         <div class="card-content">
           <figure class="image is-128x128 is-inline-block mb-5">
