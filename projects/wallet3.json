@@ -1,0 +1,10 @@
+{
+    "name": "Seraphis Migration Workgroup",
+    "github": "seraphis-migration",
+    "donate": "",
+    "avatar": "",
+    "description": "Develop and possibly implement a migration strategy for the Monero wallet to Seraphis",
+    "tags": [
+      "Wallet3"
+    ]
+}
