@@ -6,10 +6,11 @@
     "matrix": "plowsof:matrix.org",
     "donate": "https://plowsof.github.io/",
     "avatar": "https://avatars.githubusercontent.com/u/77655812?v=4?s=400",
-    "description": "I like Monero and BCH, TownForge too! :) [getmonero.org](www.getmonero.org)",
+    "description": "I like Monero and BCH, TownForge too! :) [getmonero.org](www.getmonero.org) [My CCS](https://ccs.getmonero.org/proposals/plowsof-com-rel.html)",
     "tags": [
         
-        "Wishlist"
+        "Wishlist",
+        "CCS"
 
     ]
 }
