@@ -6,9 +6,5 @@
     "type": "project",
     "website": "https://www.getmonero.org/",
     "avatar": "",
-    "description": "As stewards of the project, the Core Team manages and maintains infrastructure where centralization cannot be avoided (domains, website, github repositories...).",
-    "tags": [
-
-        "Core"
-    ]
+    "description": "As stewards of the project, the Core Team manages and maintains infrastructure where centralization cannot be avoided (domains, website, github repositories...)."
 }

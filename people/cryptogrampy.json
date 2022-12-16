@@ -1,16 +1,11 @@
 {
     "name": "Crypto Grampy",
     "github": "CryptoGrampy",
-    "reddit": "",
-    "matrix": "",
     "twitter": "CryptoGrampy",
-    "youtube": "",
     "website": "https://www.cryptogrampy.com/",
     "donate": "CryptoGrampy.com",
     "avatar": "https://avatars.githubusercontent.com/u/87162917?v=4",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-
-        "TMUXnode"
+        "Android Termux Node"
     ]
 }

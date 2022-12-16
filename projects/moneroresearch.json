@@ -1,16 +1,5 @@
 {
     "name": "MoneroResearch.info",
-    "github": "",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
     "website": "https://moneroresearch.info/",
-    "donate": "",
-    "avatar": "",
-    "description": "MoneroResearch.info hosts a collection of research papers relevant to improving Monero, powered by the WIKINDX open source software.",
-    "tags": [
-        
-        "xmresearch"
-    ]
+    "description": "MoneroResearch.info hosts a collection of research papers relevant to improving Monero, powered by the WIKINDX open source software."
 }

@@ -1,16 +1,5 @@
 {
     "name": "Monero Support",
-    "github": "",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "https://www.reddit.com/r/monerosupport",
-    "donate": "",
-    "avatar": "",
-    "description": "A team of volunteers who provide technical support for Monero users",
-    "tags": [
-        
-        "Support"
-    ]
+    "reddit": "https://www.reddit.com/r/monerosupport",
+    "description": "A team of volunteers who provide technical support for Monero users"
 }

@@ -1,17 +1,11 @@
 {
     "name": "DangerousFreedom",
     "github": "DangerousFreedom1984",
-    "reddit": "",
     "matrix": "dangerousfreedom:matrix.org",
-    "twitter": "",
-    "youtube": "",
     "website": "https://www.moneroinflation.com/",
-    "donate": "",
-    "avatar": "",
-    "description": "[My CCS](https://ccs.getmonero.org/proposals/dangerousfreedom-Seraphis-audit-and-wallet.html)",
+    "description": "[My Community Crowdfunding System](https://ccs.getmonero.org/proposals/dangerousfreedom-Seraphis-audit-and-wallet.html)",
     "tags": [
-        
-        "CCS",
-        "Wallet3"
+        "Community Crowdfunding System",
+        "Seraphis Migration Workgroup"
     ]
 }

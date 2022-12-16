@@ -1,16 +1,6 @@
 {
     "name": "Moneroocean Telegram Bot",
     "github": "Unkn8wn69/moneroocean-telegram-bot",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "https://www.getmonero.org/",
     "donate": "493e1fciPXh1ZBnUtDan7QZKmnNGzQyCMU2U7MCg1mxyWyiaHKyBKxS7sZsg5uA9mZZyshw54dwHxAVDNsULfXTv4GEHUWo",
-    "avatar": "",
-    "description": "A nice tool to check your current mining statistics within your messenger (Extra features coming soon)",
-    "tags": [
-        
-        "OceanBot"
-    ]
+    "description": "A nice tool to check your current mining statistics within your messenger (Extra features coming soon)."
 }

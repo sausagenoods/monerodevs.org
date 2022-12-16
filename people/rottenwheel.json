@@ -1,18 +1,9 @@
 {
     "name": "Rottenwheel",
-    "github": "",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
     "website": "https://rottenwheel.com/",
-    "donate": "",
     "avatar": "https://raw.githubusercontent.com/monerodevs/monerodevs.github.io/main/icons/rw.jpg",
-    "description": "I like Monero [getmonero.org](www.getmonero.org) ",
     "tags": [
-        
         "Events",
-        "blog",
-        "Revuo"
+        "Revuo Monero"
     ]
 }

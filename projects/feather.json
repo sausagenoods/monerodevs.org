@@ -6,9 +6,5 @@
     "type": "project",
     "website": "https://featherwallet.org/",
     "avatar": "https://featherwallet.org/theme/img/Feather-icon.png",
-    "description": "Multi-OS Desktop wallet for Monero",
-    "tags": [
-        
-        "Feather Wallet"
-    ]
+    "description": "Multi-OS Desktop wallet for Monero"
 }

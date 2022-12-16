@@ -1,19 +1,11 @@
 {
     "name": "Woodser",
     "github": "woodser",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "",
-    "donate": "",
     "avatar": "https://avatars.githubusercontent.com/u/13068859?v=4?s=400",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-        
-        "Haveno DEx",
-        "Core",
-        "mJS",
-        "DepScan"
+        "Haveno",
+        "Core Team",
+        "Monero Javascript Library",
+        "Monero Deposit Scanner"
     ]
 }

@@ -1,16 +1,5 @@
 {
     "name": "Generic XMR Scanner",
     "github": "moneroexamples/generic-xmr-scanner",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "https://www.getmonero.org/",
-    "donate": "",
-    "avatar": "",
-    "description": "A generic online scanner/searcher for Monero view-keys. Features include detection of possible spends. More info / dockerfile / screenshot @ github!",
-    "tags": [
-        
-        "gScan"
-    ]
+    "description": "A generic online scanner/searcher for Monero view-keys. Features include detection of possible spends. More info / dockerfile / screenshot @ github!"
 }

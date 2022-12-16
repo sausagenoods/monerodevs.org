@@ -1,16 +1,6 @@
 {
-    "name": "CCS",
-    "github": "",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "https://www.getmonero.org/",
-    "donate": "",
-    "avatar": "",
-    "description": "Active / in progress proposals",
-    "tags": [
-        
-        "CCS"
-    ]
+    "name": "Community Crowdfunding System",
+    "gitlab": "https://repo.getmonero.org/monero-project/ccs-proposals",
+    "website": "https://ccs.getmonero.org/",
+    "description": "Monero is a decentralized community-driven project, and the CCS is a way for members to get involved and proposals to be funded."
 }

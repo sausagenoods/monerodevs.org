@@ -1,14 +1,5 @@
 {
     "name": "OSPEAD",
-    "github": "",
-    "twitter": "",
-    "donate": "",
-    "type": "project",
     "website": "https://repo.getmonero.org/monero-project/ccs-proposals/-/merge_requests/255",
-    "avatar": "",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
-    "tags": [
-        
-        "OSPEAD"
-    ]
+    "description": "Fortifying Monero Against Statistical Attack"
 }

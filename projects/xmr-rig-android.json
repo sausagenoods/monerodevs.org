@@ -1,16 +1,7 @@
 {
     "name": "XMRig for Android",
     "github": "XMRig-for-Android/xmrig-for-android",
-    "reddit": "XMRigForAndroid",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "https://www.reddit.com/r/XMRigForAndroid/",
+    "reddit": "https://www.reddit.com/r/XMRigForAndroid/",
     "donate": "46gPyHjLPPM8HaayVyvCDcF2A8sq8b476VrwKMukrKg21obm1AKEwzoN3u4ooc55FKdNeF5B8vcs4ixbeCyuydr2A2sdsQi",
-    "avatar": "",
-    "description": "Mine Monero from your android device",
-    "tags": [
-        
-        "XMRigDroid"
-    ]
+    "description": "Mine Monero from your android device"
 }

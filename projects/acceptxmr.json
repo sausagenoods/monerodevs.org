@@ -5,12 +5,7 @@
     "matrix": "",
     "twitter": "",
     "youtube": "",
-    "website": "https://www.getmonero.org/",
     "donate": "8BxpZSKtD9XZwgMLWrLV8S2hapXqMuUdvSrFncShVzXaXmVttjPB5ktE7MV5DVHufwRuZPXwdPFctHkckfkJ7eTpApUbLrb",
     "avatar": "",
-    "description": "rust crate to simplify the process of accepting monero using subaddresses",
-    "tags": [
-        
-        "aXMR"
-    ]
+    "description": "Rust crate to simplify the process of accepting monero using subaddresses."
 }

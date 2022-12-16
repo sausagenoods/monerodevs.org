@@ -1,16 +1,6 @@
 {
     "name": "llcoins",
     "github": "luigi1111/xmr.llcoins.net",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
     "website": "http://llcoins.net/",
-    "donate": "",
-    "avatar": "",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
-    "tags": [
-        
-        "llcoins"
-    ]
+    "description": "XMR Tools Site"
 }

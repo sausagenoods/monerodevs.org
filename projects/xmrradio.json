@@ -1,14 +1,8 @@
 {
     "name": "XMR Radio",
-    "github": "",
     "twitter": "xmr_radio",
     "donate": "https://xmr.radio/funding",
-    "type": "project",
     "website": "https://xmr.radio/",
     "avatar": "https://xmr.radio/xmr-radio.png",
-    "description": "Welcome to XMR radio. Music, to hack the planet to!",
-    "tags": [
-
-        "XMR Radio"
-    ]
+    "description": "Welcome to XMR radio. Music, to hack the planet to!"
 }

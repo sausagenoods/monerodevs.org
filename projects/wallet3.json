@@ -3,8 +3,5 @@
     "github": "seraphis-migration",
     "donate": "",
     "avatar": "",
-    "description": "Develop and possibly implement a migration strategy for the Monero wallet to Seraphis",
-    "tags": [
-      "Wallet3"
-    ]
+    "description": "Develop and possibly implement a migration strategy for the Monero wallet to Seraphis."
 }

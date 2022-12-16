@@ -1,16 +1,10 @@
 {
     "name": "Escapethe3RA",
-    "github": "",
-    "twitter": "",
     "donate": "https://www.monero.observer/about/",
     "reddit": "escapethe3RA",
     "website": "https://www.monero.observer/",
-    "avatar": "",
-    "description": "I like Monero [getmonero.org](www.getmonero.org). [My CCS awaiting feedback](https://repo.getmonero.org/monero-project/ccs-proposals/-/merge_requests/272)",
     "tags": [
-        
-        "MO",
-
-        "CCS"
+        "Monero Observer",
+        "Community Crowdfunding System"
     ]
 }

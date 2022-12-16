@@ -1,16 +1,5 @@
 {
     "name": "Monero GUI Wallet",
-    "github": "",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
     "website": "https://www.getmonero.org/downloads/",
-    "donate": "",
-    "avatar": "",
-    "description": "Multi OS Monero desktop wallet",
-    "tags": [
-        
-        "GUI"
-    ]
+    "description": "Multi OS Monero desktop wallet"
 }

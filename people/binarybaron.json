@@ -1,16 +1,8 @@
 {
     "name": "binarybaron",
     "github": "binarybaron",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "",
-    "donate": "",
     "avatar": "https://avatars.githubusercontent.com/u/86064887?v=4?s=400",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-        
-        "SwapGUI"
+        "XMR-BTC Atomic Swap GUI"
     ]
 }

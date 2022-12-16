@@ -2,14 +2,10 @@
     "name": "U koe HB",
     "github": "UkoeHB",
     "matrix": "UkoeHB:libera.chat",
-    "twitter": "",
-    "donate": "",
     "avatar": "https://avatars.githubusercontent.com/u/37489173?v=4?s=400",
-    "description": "I like Monero [getmonero.org](www.getmonero.org) [My CCS](https://ccs.getmonero.org/proposals/seraphis-poc.html)",
     "tags": [
-        
-        "MRL",
-        "CCS",
-        "Wallet3"
+        "Monero Research Lab",
+        "Community Crowdfunding System",
+        "Seraphis Migration Workgroup"
     ]
 }

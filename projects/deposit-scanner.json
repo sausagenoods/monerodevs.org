@@ -1,16 +1,6 @@
 {
     "name": "Monero Deposit Scanner",
     "github": "woodser/monero-deposit-scanner",
-    "reddit": "",
-    "matrix": "",
-    "twitter": "",
-    "youtube": "",
-    "website": "https://www.getmonero.org/",
     "donate": "4735QZGCqASdjFvcFoJRkm6i8Z7fWWGAYe3PDS81hvnrjJj4J7kPoPbbYN9MBhru9xBRMPvi74TBXM19i2nRtykiFMDbG9n",
-    "avatar": "",
-    "description": "Open-source, client-side deposit scanner for Monero wallets.",
-    "tags": [
-        
-        "DepScan"
-    ]
+    "description": "Open-source, client-side deposit scanner for Monero wallets."
 }

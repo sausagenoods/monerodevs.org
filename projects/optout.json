@@ -1,15 +1,8 @@
 {
     "name": "OptOut Podcast",
-    "github": "",
     "twitter": "optoutpod",
     "donate": "https://www.optoutpod.com/support/",
-    "type": "project",
     "website": "https://www.optoutpod.com/",
     "youtube": "OptOutPodcast",
-    "avatar": "",
-    "description": "Welcome to Opt Out, where I sit down with passionate people to learn why privacy matters to them, the tools and techniques they\u2019ve found and leveraged, and where we encourage and inspire others towards personal privacy and data-sovereignty.",
-    "tags": [
-
-        "OptOut"
-    ]
+    "description": "Welcome to Opt Out, where I sit down with passionate people to learn why privacy matters to them, the tools and techniques they\u2019ve found and leveraged, and where we encourage and inspire others towards personal privacy and data-sovereignty."
 }

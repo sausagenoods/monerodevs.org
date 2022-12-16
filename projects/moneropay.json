@@ -1,15 +1,12 @@
 {
     "name": "MoneroPay",
-    "github": "",
+    "website": "https://moneropay.eu",
     "reddit": "",
-    "matrix": "",
+    "matrix": "https://matrix.to/#/#moneropay:kernal.eu",
     "twitter": "",
     "youtube": "",
-    "website": "https://gitlab.com/moneropay/moneropay",
+    "gitlab": "moneropay/moneropay",
     "donate": "https://donate.kernal.eu/",
     "avatar": "./images/projects/moneropay.png",
-    "description": "Monero payment gateway (API) for incoming and outgoing transactions",
-    "tags": [
-        "MoneroPay"
-    ]
+    "description": "Standalone Monero payment processor."
 }

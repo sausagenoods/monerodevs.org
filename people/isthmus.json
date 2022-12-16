@@ -1,13 +1,7 @@
 {
     "name": "Isthmus",
-    "github": "",
     "matrix": "sthmus:libera.chat",
-    "twitter": "",
-    "donate": "",
-    "avatar": "",
-    "description": "I like Monero [getmonero.org](www.getmonero.org)",
     "tags": [
-        
-        "MRL"
+        "Monero Research Lab"
     ]
 }

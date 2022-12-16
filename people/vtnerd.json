@@ -2,16 +2,11 @@
     "name": "Vtnerd",
     "github": "vtnerd",
     "reddit": "vtnerd",
-    "matrix": "",
     "twitter": "vtnerd",
-    "youtube": "",
     "website": "http://www.leeclagett.com/",
-    "donate": "",
     "avatar": "https://pbs.twimg.com/profile_images/1004176349710422017/wA3nQTQs.jpg",
-    "description": "I like Monero [getmonero.org](www.getmonero.org) [My CCS](https://ccs.getmonero.org/proposals/vtnerd-2021-q1.html)",
     "tags": [
-        
-        "lws",
-        "CCS"
+        "Monero Light Wallet Server",
+        "Community Crowdfunding System"
     ]
 }

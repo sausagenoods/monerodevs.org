@@ -1,16 +1,14 @@
 {
     "name": "Plow SoF",
     "github": "plowsof",
-    "twitter": "",
     "reddit": "KnowledgeMurky9635",
     "matrix": "plowsof:matrix.org",
     "donate": "https://plowsof.github.io/",
     "avatar": "https://avatars.githubusercontent.com/u/77655812?v=4?s=400",
-    "description": "I like Monero and BCH, TownForge too! :) [getmonero.org](www.getmonero.org) [My CCS](https://ccs.getmonero.org/proposals/plowsof-com-rel.html)",
+    "description": "I like Monero and BCH, TownForge too! :) [getmonero.org](www.getmonero.org) [My Community Crowdfunding System](https://ccs.getmonero.org/proposals/plowsof-com-rel.html)",
     "tags": [
-        
         "Wishlist",
-        "CCS"
+        "Community Crowdfunding System"
 
     ]
 }
