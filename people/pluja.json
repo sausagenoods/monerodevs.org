@@ -1,9 +1,7 @@
 {
     "name": "Pluja",
     "github": "pluja",
-    "description": "[My Community Crowdfunding System idea](https://repo.getmonero.org/monero-project/ccs-proposals/-/merge_requests/273) ",
     "tags": [
-        "Community Crowdfunding System",
         "KYCnot.me"
     ]
 }
