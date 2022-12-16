@@ -25,6 +25,7 @@ type Entity struct {
 	Twitter string `json:"twitter"`
 	Website string `json:"website"`
 	Youtube string `json:"youtube"`
+	Onion string `json:"onion"`
 	Icons template.HTML
 }
 
@@ -132,5 +133,17 @@ func renderIcons(e *Entity) {
 			<a href="%s"><span class="icon is-large">
 			  <i class="fa fa-external-link fa-2x"></i>
 			</span></a>`, e.Website))
+	}
+	if (e.Onion != "") {
+		e.Icons += template.HTML(fmt.Sprintf(`
+			<a href="%s"><span class="icon is-large">
+			  <i class="fa fa-tor-onion fa-2x"></i>
+			</span></a>`, e.Onion))
+	}
+	if (e.Reddit != "") {
+		e.Icons += template.HTML(fmt.Sprintf(`
+			<a href="%s"><span class="icon is-large">
+			  <i class="fa fa-reddit fa-2x"></i>
+			</span></a>`, e.Reddit))
 	}
 }
