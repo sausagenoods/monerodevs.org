@@ -1,6 +1,7 @@
 <html>
 <head>
-  <link rel="stylesheet" href="./assets/bulma/bulma.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./js/theme.js">
   <link href="./assets/forkawesome/css/fork-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -8,13 +9,24 @@
 img {max-height: 128px; object-fit: cover;}
 a {color: black;}
 @media (min-width: 1024px) {.card {height: 100%;}}
+#toggle {float: right;}
 </style>
 
 <body>
 
 <div class="section">
 <div class="container is-fluid">
-<h1 class="title">Projects</h1>
+<div class="columns">
+  <div class="column">
+    <h1 class="title">Projects</h1>
+  </div>
+  <div class="column">
+    <button class="button" id='toggle'>
+      Theme
+    </button>
+  </div>
+</div>
+
 <div class="columns is-multiline is-desktop">
 
 {{ range .Projects }}
@@ -77,8 +89,7 @@ a {color: black;}
 {{ end }}
 
 </div>
-
 </div>
-
 </div>
+<script src="./js/theme.js"></script>
 </body>

@@ -1,6 +1,7 @@
 <html>
 <head>
-  <link rel="stylesheet" href="./assets/bulma/bulma.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./js/theme.js">
   <link href="./assets/forkawesome/css/fork-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -8,13 +9,24 @@
 img {max-height: 128px; object-fit: cover;}
 a {color: black;}
 @media (min-width: 1024px) {.card {height: 100%;}}
+#toggle {float: right;}
 </style>
 
 <body>
 
 <div class="section">
 <div class="container is-fluid">
-<h1 class="title">Projects</h1>
+<div class="columns">
+  <div class="column">
+    <h1 class="title">Projects</h1>
+  </div>
+  <div class="column">
+    <button class="button" id='toggle'>
+      Theme
+    </button>
+  </div>
+</div>
+
 <div class="columns is-multiline is-desktop">
 
 
@@ -87,7 +99,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="http://bitejo.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -121,7 +133,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://cakewallet.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -152,7 +164,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://www.monerochan.art/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -183,7 +195,7 @@ a {color: black;}
 			  <i class="fa fa-gitlab fa-2x"></i>
 			</span></a>
 			<a href="https://ccs.getmonero.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -211,7 +223,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://www.getmonero.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -242,7 +254,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://www.cryptowoo.com/shop/monero-add-on/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -332,7 +344,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://featherwallet.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -422,7 +434,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://haveno.exchange/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -478,7 +490,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://kycnot.me/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -509,7 +521,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="http://llcoins.net/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -543,7 +555,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://magicgrants.org/funds/monero/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -574,7 +586,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://masteringmonero.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -605,7 +617,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://mnemonic-cards.herokuapp.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -633,7 +645,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://bounties.monero.social/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -691,7 +703,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://monero.graphics/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -719,7 +731,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://www.getmonero.org/downloads/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -753,7 +765,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://moneroguides.org"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -840,7 +852,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://www.getmonero.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -868,7 +880,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://medium.com/themoneromoon"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -896,7 +908,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://www.monero.observer/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -930,7 +942,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://www.monerooutreach.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -964,7 +976,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://moneropolicy.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1020,7 +1032,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://www.getmonero.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1078,7 +1090,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://www.getmonero.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1115,7 +1127,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://monero.space/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1233,7 +1245,7 @@ a {color: black;}
 			  <i class="fa fa-gitlab fa-2x"></i>
 			</span></a>
 			<a href="https://moneropay.eu"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1261,7 +1273,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://moneroresearch.info/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1295,7 +1307,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://gratuitas.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1329,7 +1341,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://funding.monerujo.app/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1360,7 +1372,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://mymonero.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1421,7 +1433,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://www.optoutpod.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1449,7 +1461,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://repo.getmonero.org/monero-project/ccs-proposals/-/merge_requests/255"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1480,7 +1492,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://p2pool.io/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1511,7 +1523,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://pinode.co.uk/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1539,7 +1551,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://repo.getmonero.org/selene/primo"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1567,7 +1579,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://resilience365.com"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1595,7 +1607,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://revuo-xmr.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1626,7 +1638,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://rino.io/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1682,7 +1694,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://monerotech.info/Wallet"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1769,7 +1781,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://soundcloud.com/crypt0bear"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1799,7 +1811,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://plowsof.github.io/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1830,7 +1842,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://xmr.radio/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1861,7 +1873,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://www.getmonero.org/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1888,7 +1900,7 @@ a {color: black;}
           <div class="icons mb-2">
             
 			<a href="https://xmrguide.org"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
           </div>
 
@@ -1956,7 +1968,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://cointr.ee/anarkiocrypto"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Agora, anarchy, action! #Bitcoin #Monero #NoKYC. An info page on practical Bitcoin/Monero use cases, circular economy, privacy, tech, etc <a href="https://haste.tchncs.de/raw/sibikozafe">here</a></p>
@@ -2186,7 +2198,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://www.cryptogrampy.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -2218,7 +2230,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://www.moneroinflation.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -2337,7 +2349,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://sanderf.nl"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Creator of Featherwallet, Monero GUI contributor. <a href="https://chaos.social/web/accounts/107328556132590461%60">Mastodon</a></p>
@@ -2455,7 +2467,7 @@ a {color: black;}
 	  <div class="icons mb-2">
             
 			<a href="https://www.monero.observer/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="escapethe3RA"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -2695,7 +2707,7 @@ a {color: black;}
 	  <div class="icons mb-2">
             
 			<a href="https://johnfoss.medium.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -2721,7 +2733,7 @@ a {color: black;}
 	  <div class="icons mb-2">
             
 			<a href="https://resilience365.com"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Privacy enthusiast who started sharing some of my monero / privacy related thoughts on the blog <a href="https://resilience365.com">resilience365.com</a></p>
@@ -2791,7 +2803,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://medium.com/@JEhrenhofer"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="SamsungGalaxyPlayer"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -2890,7 +2902,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://meroscrypto.io/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Wallet developer, atomic swap enthusiast, and budding cryptographer</p>
@@ -3023,7 +3035,7 @@ a {color: black;}
 	  <div class="icons mb-2">
             
 			<a href="https://willenrimer.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -3297,7 +3309,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://rbrunner7.github.io/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -3334,7 +3346,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://www.tari.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Chief Entertainment Officer</p>
@@ -3415,7 +3427,7 @@ a {color: black;}
 	  <div class="icons mb-2">
             
 			<a href="https://rottenwheel.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -3474,7 +3486,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://ruisiang.medium.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="ruisiang"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -3589,7 +3601,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://serhack.me/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="serhack"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -3631,7 +3643,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://sethforprivacy.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="fort3hlulz"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -3696,7 +3708,7 @@ a {color: black;}
 			  <i class="fa fa-gitlab fa-2x"></i>
 			</span></a>
 			<a href="https://kernal.eu/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Free software advocate, hacker, developer at <a href="https://kernal.eu">kernal.eu</a>.</p>
@@ -3761,7 +3773,7 @@ a {color: black;}
 			  <i class="fa fa-youtube fa-2x"></i>
 			</span></a>
 			<a href="https://spirobel.github.io/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="spirobel"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -3794,7 +3806,7 @@ a {color: black;}
 			  <i class="fa fa-gitlab fa-2x"></i>
 			</span></a>
 			<a href="https://kernal.eu"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Free Money, Software and Hardware activist. Main <a href="https://kernal.eu">Kernal.eu</a> IT guy, help us spread Monero in Lithuania!</p>
@@ -3965,7 +3977,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://thecharlatan.ch/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>Best known for 2 issues i found reg. unlock_time <a href="https://hackerone.com/reports/817245">here</a> and <a href="https://hackerone.com/reports/854726">here</a></p>
@@ -4109,7 +4121,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="https://cakewallet.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p></p>
@@ -4141,7 +4153,7 @@ a {color: black;}
 			  <i class="fa fa-twitter fa-2x"></i>
 			</span></a>
 			<a href="http://www.leeclagett.com/"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 			<a href="vtnerd"><span class="icon is-large">
 			  <i class="fa fa-reddit fa-2x"></i>
@@ -4173,7 +4185,7 @@ a {color: black;}
 			  <i class="fa fa-github fa-2x"></i>
 			</span></a>
 			<a href="https://github.com/WernerVasquez/gomonero"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>
 	  </div>
           <p><p>I have a work in progress monero library in Go. Currently, I am working on implementing jamtis. Crtiticism needed and welcome.</p>
@@ -4247,8 +4259,7 @@ a {color: black;}
 
 
 </div>
-
 </div>
-
 </div>
+<script src="./js/theme.js"></script>
 </body>
