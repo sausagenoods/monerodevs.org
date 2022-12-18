@@ -131,7 +131,7 @@ func renderIcons(e *Entity) {
 	if (e.Website != "") {
 		e.Icons += template.HTML(fmt.Sprintf(`
 			<a href="%s"><span class="icon is-large">
-			  <i class="fa fa-external-link fa-2x"></i>
+			  <i class="fa fa-link fa-2x"></i>
 			</span></a>`, e.Website))
 	}
 	if (e.Onion != "") {
