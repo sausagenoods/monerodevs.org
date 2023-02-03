@@ -15,6 +15,12 @@ img {max-height: 128px; object-fit: cover;}
 a {color: black;}
 @media (min-width: 1024px) {.card {height: 100%;}}
 #toggle {float: right;}
+.modal-button:focus + .modal {
+  display: flex;
+}
+.modal-content {
+word-wrap: break-word;
+}
 </style>
 
 <body>
@@ -41,6 +47,19 @@ a {color: black;}
           </div>
 
          <p>{{ .Description }}</p>
+	 {{ if .Donate }}
+        <button class="button is-primary is-inline-block mt-5 modal-button">Donate</button>
+	<div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+	<div class="box">
+	<div class="content">
+      	<p>{{ .Donate }}</p>
+	</div>
+	</div>
+        </div>
+</div>
+	 {{ end }}
         </div>
         <footer class="card-footer is-inline-block">
         <div class="buttons are-small is-inline-block m-3">
@@ -72,6 +91,19 @@ a {color: black;}
             {{ .Icons }}
 	  </div>
           <p>{{ .Description }}</p>
+	 {{ if .Donate }}
+        <button class="button is-primary is-inline-block mt-5 modal-button">Donate</button>
+	<div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+	<div class="box">
+	<div class="content">
+      	<p>{{ .Donate }}</p>
+	</div>
+	</div>
+        </div>
+</div>
+	 {{ end }}
         </div>
         <footer class="card-footer is-inline-block">
         <div class="buttons are-small is-inline-block m-3">

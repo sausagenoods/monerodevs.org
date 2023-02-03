@@ -26,6 +26,7 @@ type Entity struct {
 	Website string `json:"website"`
 	Youtube string `json:"youtube"`
 	Onion string `json:"onion"`
+	Donate string `json:"donate"`
 	Icons template.HTML
 }
 
